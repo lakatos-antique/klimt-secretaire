@@ -90,7 +90,7 @@ void loop() {
 // Called to turn on the strip. 
 // We only address the WHITE pixel.
 void lightUp() {
-  for (uint16_t i=0; i<strip.numPixels(); i++) {
+  for (uint16_t i = 0; i < strip.numPixels(); i++) {
 //    // Only turning on every second pixel to reduce brightness
 //    if (i % 2) {
 //      continue;
@@ -102,7 +102,7 @@ void lightUp() {
 
 // Called to turn off the strip.
 void turnOff() {
-  for (uint16_t i=0; i<strip.numPixels(); i++) {
+  for (uint16_t i = 0; i < strip.numPixels(); i++) {
 //    // Only turning on every second pixel to reduce brightness
 //    if (i % 2) {
 //      continue;
